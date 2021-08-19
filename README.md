@@ -22,6 +22,7 @@
 - [Deploying Azure NetApp Files Volumes in Linux - Part 1 [video]](https://www.youtube.com/watch?v=PsupgqUNSA0)
 - [Deploying Azure NetApp Files Volumes in Linux - Part 2 [video]](https://www.youtube.com/watch?v=XYXWVyfi25k)
 - [Persistent Mounts with Azure NetApp Files (NFS) [video]](https://www.youtube.com/watch?v=KXP87RXokzY)
+- [Migrate to Azure NetApp Files](https://anfcommunity.com/2021/04/28/migrating-to-azure-netapp-files/)
 
 ### Architecture
 
