@@ -124,9 +124,24 @@
 
 ### Snapshots
 
-### Cross Region Replication (CRR)
+- [How Azure NetApp Files Snapshots work](https://docs.microsoft.com/en-us/azure/azure-netapp-files/snapshots-introduction)
+- [Manage Snapshots by using Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-manage-snapshots)
 
+### Cross-Region Replication (CRR)
+
+- [Manage Disaster Recovery using Cross-Region Replication](https://docs.microsoft.com/en-us/azure/azure-netapp-files/cross-region-replication-manage-disaster-recovery)
+- [Create volume replication for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/cross-region-replication-create-peering)
+- [Display health status of replication relationship](https://docs.microsoft.com/en-us/azure/azure-netapp-files/cross-region-replication-display-health-status)
+- [Delete volume replication or volumes](https://docs.microsoft.com/en-us/azure/azure-netapp-files/cross-region-replication-delete)
 
 ## Uncategorized
 
+### Troubleshooting
 
+- [Troubleshoot Capacity Pools](https://docs.microsoft.com/en-us/azure/azure-netapp-files/troubleshoot-capacity-pools)
+- [Troubleshoot Cross-Region Replication](https://docs.microsoft.com/en-us/azure/azure-netapp-files/troubleshoot-cross-region-replication)
+- [Troubleshoot SMB or dual-protocol volumes](https://docs.microsoft.com/en-us/azure/azure-netapp-files/troubleshoot-dual-protocol-volumes)
+- [Troubleshoot NFSv4.1 kerberos volume issues](https://docs.microsoft.com/en-us/azure/azure-netapp-files/troubleshoot-nfsv41-kerberos-volumes)
+- [Troubleshoot snapshot policies](https://docs.microsoft.com/en-us/azure/azure-netapp-files/troubleshoot-snapshot-policies)
+- [Troubleshoot LDAP volumes](https://docs.microsoft.com/en-us/azure/azure-netapp-files/troubleshoot-ldap-volumes)
+- [Troubleshoot Resource Provider errors](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-troubleshoot-resource-provider-errors)
