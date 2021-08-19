@@ -15,7 +15,7 @@
 
 - [ANFCommunity.com](https://anfcommunity.com)
 - [seanluce.com](https://seanluce.com)
-- [kirkryan.co.uk/](https://kirkryan.co.uk/)
+- [kirkryan.co.uk](https://kirkryan.co.uk/)
 
 ### How-to / Guides
 
