@@ -79,8 +79,8 @@
 
 ## Automation
 
-- [Azure NeAutApp Files Code samples] (https://docs.microsoft.com/en-us/samples/browse/?terms=netapp)
-- [Automate Azure NetApp Files with Powershell] (https://anfcommunity.com/2020/09/11/automate-azure-netapp-files-with-powershell/)
+- [Azure NetApp Files Code samples](https://docs.microsoft.com/en-us/samples/browse/?terms=netapp)
+- [Automate Azure NetApp Files with Powershell](https://anfcommunity.com/2020/09/11/automate-azure-netapp-files-with-powershell/)
 
 ### Logic Apps
 
