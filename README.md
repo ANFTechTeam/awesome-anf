@@ -94,7 +94,7 @@
 
 ### Ansible
 
-- Ansible Modules for Azure NetApp Files](https://galaxy.ansible.com/netapp/azure)
+- [Ansible Modules for Azure NetApp Files](https://galaxy.ansible.com/netapp/azure)
 
 ### PowerShell
 
