@@ -120,5 +120,13 @@
 
 - [Azure NetApp Files - Performance 101 [video]](https://www.youtube.com/watch?v=mKNcucOtjsU)
 
+## Data Protection
+
+### Snapshots
+
+### Cross Region Replication (CRR)
+
+
 ## Uncategorized
+
 
