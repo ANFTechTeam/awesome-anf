@@ -2,6 +2,12 @@
 
 # Awesome Azure NetApp Files (ANF) - A curated list of Azure NetApp Files Resources
 
+## Table of Contents
+
+- [General](##General)
+- [Workloads / Use Cases](##workloadsusecases)
+- [Monitoring / Alerting / Reporting](##monitoringalertingreporting)
+
 ## General
 
 - [What's new in Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/whats-new)
