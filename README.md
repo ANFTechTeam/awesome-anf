@@ -29,6 +29,7 @@
 - [Create an NFS volume for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes)
 - [How to do SMB on Azure NetApp Files](https://anfcommunity.com/2020/09/18/how-to-do-smb-on-anf/)
 - [Create an SMB volume for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb#control-access-to-an-smb-volume)
+- [Create a dual-protocol volume for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/create-volumes-dual-protocol)
 
 ### Architecture
 
