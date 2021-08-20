@@ -10,6 +10,8 @@
 - [SLA for Azure NetApp Files (99.99%)](https://azure.microsoft.com/en-us/support/legal/sla/netapp)
 - [Azure NetApp Files Performance and Cost Calculator](https://anftechteam.github.io/calc/)
 - [Azure NetApp Files Interactive Region Map](https://anftechteam.github.io/map/)
+- [FAQs about Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-faqs#networking-faqs)
+- [Cost model for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-cost-model)
 
 ### Blogs
 
@@ -23,6 +25,10 @@
 - [Deploying Azure NetApp Files Volumes in Linux - Part 2 [video]](https://www.youtube.com/watch?v=XYXWVyfi25k)
 - [Persistent Mounts with Azure NetApp Files (NFS) [video]](https://www.youtube.com/watch?v=KXP87RXokzY)
 - [Migrate to Azure NetApp Files](https://anfcommunity.com/2021/04/28/migrating-to-azure-netapp-files/)
+- [Quickstart: Set up Azure NetApp Files and create an NFS volume](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-quickstart-set-up-account-create-volumes?tabs=azure-portal)
+- [Create an NFS volume for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes)
+- [How to do SMB on Azure NetApp Files](https://anfcommunity.com/2020/09/18/how-to-do-smb-on-anf/)
+- [Create an SMB volume for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb#control-access-to-an-smb-volume)
 
 ### Architecture
 
@@ -47,10 +53,14 @@
 - [SAP on Azure - Video Podcast Episode #14 - The One with AN](https://www.youtube.com/watch?v=zPALOig4CRM)
 - [SAP on Azure - Video Podcast Episide #15 - The One with ANF, Backup](https://www.youtube.com/watch?v=MvEzYu41Mko)
 - [SAP on Azure - Video Podcast Episode #16 - The One with ANF, Recovery & Cloning](https://www.youtube.com/watch?v=oL0ICzfJAfk)
+- [What is Azure Application Consistent Snapshot tool (AzAcSnap)](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azacsnap-introduction)
 
 ### HPC
 
 - [High Performance Computing on Azure [blog]](https://anfcommunity.com/2020/12/04/high-performance-computing-on-azure/)
+- [Choose the best service level of Azure NetApp Files for your HPC applications](https://docs.microsoft.com/en-us/learn/modules/choose-service-level-azure-netapp-files-hpc-applications/)
+- [Improve Azure NetApp Files performance for your EDA and HPC applications by using best practices](https://docs.microsoft.com/en-us/learn/modules/improve-azure-netapp-files-performance-hpc-eda-best-practices/)
+- [Run high-performance computing (HPC) applications on Azure](https://docs.microsoft.com/en-us/learn/paths/run-high-performance-computing-applications-azure/)
 
 ### Azure Virtual Desktop
 
@@ -66,11 +76,14 @@
 
 - [Oracle Databases on Microsoft Azure [Technical Report]](https://www.netapp.com/pdf.html?item=/media/17105-tr4780pdf.pdf)
 - [Oracle on Azure VM Images with Azure NetApp Files [MS Docs]](https://docs.microsoft.com/en-us/azure/virtual-machines/workloads/oracle/oracle-vm-solutions#shared-storage-configuration-options)
+- [Benefits of using Azure NetApp Files with Oracle Database](https://docs.microsoft.com/en-us/azure/azure-netapp-files/solutions-benefits-azure-netapp-files-oracle-database)
 
 ### SQL Server
 
 - [Deploy SQL Server over SMB with Azure NetApp Files [video]](https://www.youtube.com/watch?v=x7udfcYbibs)
 - [Deploy SQL Server Always On Availability Groups with Azure NetApp Files [video]](https://www.youtube.com/watch?v=y3VQmzzeyvc)
+- [Benefits of using Azure NetApp Files for SQL Server deployment](https://docs.microsoft.com/en-us/azure/azure-netapp-files/solutions-benefits-azure-netapp-files-sql-server)
+- [SQL Server on Azure deploymnet guide using Azure NetApp Files](https://www.netapp.com/pdf.html?item=/media/27154-tr-4888.pdf)
 
 ## Monitoring / Alerting / Reporting
 
@@ -79,9 +92,6 @@
 - [Azure Monitor: How to set up ANF alerts [video]](https://www.youtube.com/watch?v=JUmiSvMSTA0)
 
 ## Automation
-
-- [Azure NetApp Files Code samples](https://docs.microsoft.com/en-us/samples/browse/?terms=netapp)
-- [Automate Azure NetApp Files with Powershell](https://anfcommunity.com/2020/09/11/automate-azure-netapp-files-with-powershell/)
 
 ### Logic Apps
 
@@ -105,10 +115,13 @@
 - [Az.NetAppFiles [docs]](https://docs.microsoft.com/en-us/powershell/module/az.netappfiles)
 - [Azure NetApp Files: PowerShell One-Liners](https://anfcommunity.com/2021/08/03/azure-netapp-files-powershell-one-liners/)
 - [ANFHealthCheck: A PowerShell Script to generate beautiful HTML reports](https://github.com/seanluce/ANFHealthCheck)
+- [Automate Azure NetApp Files with Powershell](https://anfcommunity.com/2020/09/11/automate-azure-netapp-files-with-powershell/)
 
 ### Azure CLI (az cli)
 
 - [az netappfiles](https://docs.microsoft.com/en-us/cli/azure/netappfiles?view=azure-cli-latest)
+- [Azure NetApp Files Code samples](https://docs.microsoft.com/en-us/samples/browse/?terms=netapp)
+
 
 ### Azure REST API
 
@@ -119,6 +132,22 @@
 ## Performance
 
 - [Azure NetApp Files - Performance 101 [video]](https://www.youtube.com/watch?v=mKNcucOtjsU)
+- [Performance considerations for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-performance-considerations)
+- [Performance benchmark test recommendations for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-performance-metrics-volumes)
+- [Azure NetApp Files performance benchmarks for Linux](https://docs.microsoft.com/en-us/azure/azure-netapp-files/performance-benchmarks-linux)
+- [Performance impact of Kerberos on Azure NetApp Files NFSv4.1 volumes](https://docs.microsoft.com/en-us/azure/azure-netapp-files/performance-impact-kerberos)
+- [Oracle database performance on Azure NetApp Files single volumes](https://docs.microsoft.com/en-us/azure/azure-netapp-files/performance-oracle-single-volumes)
+
+### Performance Reference for Azure NetApp Files
+
+- [Linux direct I/O best practices for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/performance-linux-direct-io)
+- [Linux filesystem cache best practices for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/performance-linux-filesystem-cache)
+- [Linux NFS mount options best practices for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/performance-linux-mount-options)
+- [Linux concurrency best practices for Azure NetApp Files - Session slots and slot table entries](https://docs.microsoft.com/en-us/azure/azure-netapp-files/performance-linux-concurrency-session-slots)
+- [Linux NFS read-ahead best practices for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/performance-linux-nfs-read-ahead)
+- [SMB performance best practices for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-smb-performance)
+- [Azure virtual machine SKUs best practices for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/performance-virtual-machine-sku)
+
 
 ## Data Protection
 
@@ -135,6 +164,9 @@
 - [Delete volume replication or volumes](https://docs.microsoft.com/en-us/azure/azure-netapp-files/cross-region-replication-delete)
 
 ## Uncategorized
+
+- [Storage service add-ons for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/storage-service-add-ons)
+- [Using Azure Policy with Azure NetApp Files](https://anfcommunity.com/2021/04/19/azure-policy-now-available-for-azure-netapp-files/)
 
 ### Troubleshooting
 
