@@ -4,9 +4,9 @@
 
 ## Table of Contents
 
-- [General](##General)
-- [Workloads / Use Cases](##workloadsusecases)
-- [Monitoring / Alerting / Reporting](##monitoringalertingreporting)
+- [General](#General)
+- [Workloads / Use Cases](#workloadsusecases)
+- [Monitoring / Alerting / Reporting](#monitoringalertingreporting)
 
 ## General
 
