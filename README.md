@@ -4,14 +4,36 @@
 
 ## Table of Contents
 
-- [General](#General)
-- [Workloads / Use Cases](#workloads--use-cases)
-- [Monitoring / Alerting / Reporting](#monitoring--alerting--reporting)
-- [Automation](#automation)
-- [Performance](#performance)
-- [Data Protection](#data-protection)
-- [Troubleshooting](#troubleshooting)
-- [Other](#other)
+- [Awesome Azure NetApp Files (ANF) - A curated list of Azure NetApp Files Resources](#awesome-azure-netapp-files-anf---a-curated-list-of-azure-netapp-files-resources)
+  - [Table of Contents](#table-of-contents)
+  - [General](#general)
+    - [Blogs / Articles](#blogs--articles)
+    - [How-to / Guides](#how-to--guides)
+    - [Architecture](#architecture)
+      - [Networking](#networking)
+  - [Workloads / Use Cases](#workloads--use-cases)
+    - [SAP](#sap)
+    - [HPC](#hpc)
+    - [Azure Virtual Desktop](#azure-virtual-desktop)
+    - [Kubernetes / Containers](#kubernetes--containers)
+    - [Oracle](#oracle)
+    - [SQL Server](#sql-server)
+  - [Monitoring / Alerting / Reporting](#monitoring--alerting--reporting)
+  - [Automation](#automation)
+    - [Logic Apps](#logic-apps)
+    - [Terraform](#terraform)
+    - [Ansible](#ansible)
+    - [PowerShell](#powershell)
+    - [Azure CLI (az cli)](#azure-cli-az-cli)
+    - [Azure REST API](#azure-rest-api)
+  - [Performance](#performance)
+    - [Performance Information](#performance-information)
+    - [Performance Reference for Azure NetApp Files](#performance-reference-for-azure-netapp-files)
+  - [Data Protection](#data-protection)
+    - [Snapshots](#snapshots)
+    - [Cross-Region Replication (CRR)](#cross-region-replication-crr)
+  - [Troubleshooting](#troubleshooting)
+  - [Other](#other)
 
 ## General
 
@@ -24,11 +46,12 @@
 - [FAQs about Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-faqs#networking-faqs)
 - [Cost model for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-cost-model)
 
-### Blogs
+### Blogs / Articles
 
 - [ANFCommunity.com](https://anfcommunity.com)
 - [seanluce.com](https://seanluce.com)
 - [kirkryan.co.uk](https://kirkryan.co.uk/)
+- [Who Cares About Deduplication?](https://www.linkedin.com/pulse/who-cares-deduplication-win-vahlkamp/)
 
 ### How-to / Guides
 
