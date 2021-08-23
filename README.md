@@ -5,8 +5,13 @@
 ## Table of Contents
 
 - [General](#General)
-- [Workloads / Use Cases](#workloadsusecases)
-- [Monitoring / Alerting / Reporting](#monitoringalertingreporting)
+- [Workloads / Use Cases](#workloads--use-cases)
+- [Monitoring / Alerting / Reporting](#monitoring--alerting--reporting)
+- [Automation](#automation)
+- [Performance](#performance)
+- [Data Protection](#data-protection)
+- [Troubleshooting](#troubleshooting)
+- [Other](#other)
 
 ## General
 
@@ -172,12 +177,7 @@
 - [Display health status of replication relationship](https://docs.microsoft.com/en-us/azure/azure-netapp-files/cross-region-replication-display-health-status)
 - [Delete volume replication or volumes](https://docs.microsoft.com/en-us/azure/azure-netapp-files/cross-region-replication-delete)
 
-## Uncategorized
-
-- [Storage service add-ons for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/storage-service-add-ons)
-- [Using Azure Policy with Azure NetApp Files](https://anfcommunity.com/2021/04/19/azure-policy-now-available-for-azure-netapp-files/)
-
-### Troubleshooting
+## Troubleshooting
 
 - [Troubleshoot Capacity Pools](https://docs.microsoft.com/en-us/azure/azure-netapp-files/troubleshoot-capacity-pools)
 - [Troubleshoot Cross-Region Replication](https://docs.microsoft.com/en-us/azure/azure-netapp-files/troubleshoot-cross-region-replication)
@@ -186,3 +186,10 @@
 - [Troubleshoot snapshot policies](https://docs.microsoft.com/en-us/azure/azure-netapp-files/troubleshoot-snapshot-policies)
 - [Troubleshoot LDAP volumes](https://docs.microsoft.com/en-us/azure/azure-netapp-files/troubleshoot-ldap-volumes)
 - [Troubleshoot Resource Provider errors](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-troubleshoot-resource-provider-errors)
+
+## Other
+
+- [Storage service add-ons for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/storage-service-add-ons)
+- [Using Azure Policy with Azure NetApp Files](https://anfcommunity.com/2021/04/19/azure-policy-now-available-for-azure-netapp-files/)
+
+
