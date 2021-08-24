@@ -2,39 +2,6 @@
 
 # Awesome Azure NetApp Files (ANF) - A curated list of Azure NetApp Files Resources
 
-## Table of Contents
-
-- [Awesome Azure NetApp Files (ANF) - A curated list of Azure NetApp Files Resources](#awesome-azure-netapp-files-anf---a-curated-list-of-azure-netapp-files-resources)
-  - [Table of Contents](#table-of-contents)
-  - [General](#general)
-    - [Blogs / Articles](#blogs--articles)
-    - [How-to / Guides](#how-to--guides)
-    - [Architecture](#architecture)
-      - [Networking](#networking)
-  - [Workloads / Use Cases](#workloads--use-cases)
-    - [SAP](#sap)
-    - [HPC](#hpc)
-    - [Azure Virtual Desktop](#azure-virtual-desktop)
-    - [Kubernetes / Containers](#kubernetes--containers)
-    - [Oracle](#oracle)
-    - [SQL Server](#sql-server)
-  - [Monitoring / Alerting / Reporting](#monitoring--alerting--reporting)
-  - [Automation](#automation)
-    - [Logic Apps](#logic-apps)
-    - [Terraform](#terraform)
-    - [Ansible](#ansible)
-    - [PowerShell](#powershell)
-    - [Azure CLI (az cli)](#azure-cli-az-cli)
-    - [Azure REST API](#azure-rest-api)
-  - [Performance](#performance)
-    - [Performance Information](#performance-information)
-    - [Performance Reference for Azure NetApp Files](#performance-reference-for-azure-netapp-files)
-  - [Data Protection](#data-protection)
-    - [Snapshots](#snapshots)
-    - [Cross-Region Replication (CRR)](#cross-region-replication-crr)
-  - [Troubleshooting](#troubleshooting)
-  - [Other](#other)
-
 ## General
 
 - [What's new in Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/whats-new)
@@ -46,12 +13,11 @@
 - [FAQs about Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-faqs#networking-faqs)
 - [Cost model for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-cost-model)
 
-### Blogs / Articles
+### Blogs
 
 - [ANFCommunity.com](https://anfcommunity.com)
 - [seanluce.com](https://seanluce.com)
 - [kirkryan.co.uk](https://kirkryan.co.uk/)
-- [Who Cares About Deduplication?](https://www.linkedin.com/pulse/who-cares-deduplication-win-vahlkamp/)
 
 ### How-to / Guides
 
@@ -89,6 +55,7 @@
 - [SAP on Azure - Video Podcast Episide #15 - The One with ANF, Backup](https://www.youtube.com/watch?v=MvEzYu41Mko)
 - [SAP on Azure - Video Podcast Episode #16 - The One with ANF, Recovery & Cloning](https://www.youtube.com/watch?v=oL0ICzfJAfk)
 - [What is Azure Application Consistent Snapshot tool (AzAcSnap)](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azacsnap-introduction)
+- [SAP HANA disaster recovery with Azure NetApp Files [Technical Report]](https://docs.netapp.com/us-en/netapp-solutions-sap/backup/saphana-dr-anf_data_protection_overview_overview.html)
 
 ### HPC
 
@@ -200,7 +167,12 @@
 - [Display health status of replication relationship](https://docs.microsoft.com/en-us/azure/azure-netapp-files/cross-region-replication-display-health-status)
 - [Delete volume replication or volumes](https://docs.microsoft.com/en-us/azure/azure-netapp-files/cross-region-replication-delete)
 
-## Troubleshooting
+## Uncategorized
+
+- [Storage service add-ons for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/storage-service-add-ons)
+- [Using Azure Policy with Azure NetApp Files](https://anfcommunity.com/2021/04/19/azure-policy-now-available-for-azure-netapp-files/)
+
+### Troubleshooting
 
 - [Troubleshoot Capacity Pools](https://docs.microsoft.com/en-us/azure/azure-netapp-files/troubleshoot-capacity-pools)
 - [Troubleshoot Cross-Region Replication](https://docs.microsoft.com/en-us/azure/azure-netapp-files/troubleshoot-cross-region-replication)
@@ -209,10 +181,3 @@
 - [Troubleshoot snapshot policies](https://docs.microsoft.com/en-us/azure/azure-netapp-files/troubleshoot-snapshot-policies)
 - [Troubleshoot LDAP volumes](https://docs.microsoft.com/en-us/azure/azure-netapp-files/troubleshoot-ldap-volumes)
 - [Troubleshoot Resource Provider errors](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-troubleshoot-resource-provider-errors)
-
-## Other
-
-- [Storage service add-ons for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/storage-service-add-ons)
-- [Using Azure Policy with Azure NetApp Files](https://anfcommunity.com/2021/04/19/azure-policy-now-available-for-azure-netapp-files/)
-
-
