@@ -76,6 +76,7 @@
 
 ### SAP
 
+- [Designing SAP Global transport directory using ANF in Azure](https://techcommunity.microsoft.com/t5/running-sap-applications-on-the/designing-sap-global-transport-directory-using-anf-in-azure/ba-p/2621547)
 - [Architectural Decisions to Maximize ANF Investment for SAP HANA - Part 1](https://techcommunity.microsoft.com/t5/running-sap-applications-on-the/architectural-decisions-to-maximize-anf-investment-in-hana-n-m/ba-p/2078737)
 - [Azure NetApp Files HANA Certification](https://azure.microsoft.com/en-us/updates/azure-netapp-files-hana-certification-and-new-region-availability/)
 - [Deploy SAP HANA Scale-out on Azure VMs with ANF, SLES [docs]](https://docs.microsoft.com/en-us/azure/virtual-machines/workloads/sap/sap-hana-scale-out-standby-netapp-files-suse)
