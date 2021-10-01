@@ -30,6 +30,7 @@
   - [Data Protection](#data-protection)
     - [Snapshots](#snapshots)
     - [Cross-Region Replication (CRR)](#cross-region-replication-crr)
+    - [Backup](#backup)
   - [Troubleshooting](#troubleshooting)
   - [Other](#other)
 
@@ -204,6 +205,17 @@
 - [Create volume replication for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/cross-region-replication-create-peering)
 - [Display health status of replication relationship](https://docs.microsoft.com/en-us/azure/azure-netapp-files/cross-region-replication-display-health-status)
 - [Delete volume replication or volumes](https://docs.microsoft.com/en-us/azure/azure-netapp-files/cross-region-replication-delete)
+
+### Backup
+
+- [Understand Azure NetApp Files backup](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-introduction)
+- [Requirements and considerations for Azure NetApp Files backup](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-requirements-considerations)
+- [Configure policy-based backups for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-configure-policy-based)
+- [Manage backup policies for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-manage-policies)
+- [Search backups of Azure NetApp Files volumes](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-search)
+- [Restore a backup to a new volume](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-restore-new-volume)
+- [Disable backup functionality for a volume](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-disable)
+- [Delete backups of a volume](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-delete)
 
 ## Troubleshooting
 
