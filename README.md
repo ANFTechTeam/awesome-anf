@@ -21,6 +21,8 @@
     - [Oracle](#oracle)
     - [SQL Server](#sql-server)
     - [Azure VMware Solution](#azure-vmware-solution)
+    - [Machine Learning](#machine-learning)
+    - [Eductation](#education) 
   - [Monitoring / Alerting / Reporting](#monitoring--alerting--reporting)
   - [Automation](#automation)
     - [Logic Apps](#logic-apps)
@@ -156,6 +158,7 @@
 
 ### Oracle
 
+- [Oracle Database with Azure NetApp Files - Azure Example Scenarios](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/file-storage/oracle-azure-netapp-files)
 - [Oracle Databases on Microsoft Azure [Technical Report]](https://www.netapp.com/pdf.html?item=/media/17105-tr4780pdf.pdf)
 - [Oracle on Azure VM Images with Azure NetApp Files [MS Docs]](https://docs.microsoft.com/en-us/azure/virtual-machines/workloads/oracle/oracle-vm-solutions#shared-storage-configuration-options)
 - [Benefits of using Azure NetApp Files with Oracle Database](https://docs.microsoft.com/en-us/azure/azure-netapp-files/solutions-benefits-azure-netapp-files-oracle-database)
@@ -172,6 +175,15 @@
 ### Azure VMware Solution
 
 -[Azure NetApp Files with Azure VMware Solution - Guest OS Mounts](https://docs.microsoft.com/en-us/azure/azure-vmware/netapp-files-with-azure-vmware-solution)
+
+### Machine Learning
+
+- [Cloudera Machine Learning](https://docs.cloudera.com/machine-learning/cloud/requirements-azure/topics/ml-requirements-azure.html)
+- [Distributed training in Azure: Lane detection - Solution design](https://docs.netapp.com/us-en/netapp-solutions/ai/runai-ld_executive_summary.html)
+
+### Education
+
+- [Moodle on Azure NetApp Files NFS storage](https://techcommunity.microsoft.com/t5/azure-architecture-blog/azure-netapp-files-for-nfs-storage-with-moodle/ba-p/2300630)
 
 ## Monitoring / Alerting / Reporting
 
