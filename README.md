@@ -7,6 +7,12 @@
     - [Training](#training)
     - [Blogs](#blogs)
     - [How-to / Guides](#how-to--guides)
+      - [Manage NFS volumes](#manage-nfs-volumes)
+      - [Manage SMB volumes](#manage-smb-volumes)
+      - [Manage dual-protocol volumes](#manage-dual-protocol-volumes)
+      - [Manage volume access and encryption](#manage-volume-access-and-encryption)
+      - [Mount or unmount a volume](#mount-or-unmount-a-volume)
+      - [Manage volume capacity and performance](#manage-volume-capacity-and-performance)
     - [Architecture](#architecture)
       - [Networking](#networking)
   - [Workloads / Use Cases](#workloads--use-cases)
@@ -73,10 +79,39 @@
 - [Persistent Mounts with Azure NetApp Files (NFS) [video]](https://www.youtube.com/watch?v=KXP87RXokzY)
 - [Migrate to Azure NetApp Files](https://anfcommunity.com/2021/04/28/migrating-to-azure-netapp-files/)
 - [Quickstart: Set up Azure NetApp Files and create an NFS volume](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-quickstart-set-up-account-create-volumes?tabs=azure-portal)
+
+#### Manage NFS volumes
+
 - [Create an NFS volume for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes)
+- [Configure NFSv4.1 default domain](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-configure-nfsv41-domain)
+- [Configure NFSv4.1 Kerberos encrpyption](https://docs.microsoft.com/en-us/azure/azure-netapp-files/configure-kerberos-encryption)
+- [Configure ADDS LDAP with extended groups for NFS](https://docs.microsoft.com/en-us/azure/azure-netapp-files/configure-ldap-extended-groups)
+- [Configure an NFS client for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/configure-nfs-clients)
+
+#### Manage SMB volumes
+
 - [How to do SMB on Azure NetApp Files](https://anfcommunity.com/2020/09/18/how-to-do-smb-on-anf/)
-- [Create an SMB volume for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb#control-access-to-an-smb-volume)
+- [Create an SMB volume for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb)
+- [Enable Continuous Availability on existing SMB volumes](https://docs.microsoft.com/en-us/azure/azure-netapp-files/enable-continuous-availability-existing-smb)
+
+#### Manage dual-protocol volumes
+
 - [Create a dual-protocol volume for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/create-volumes-dual-protocol)
+
+#### Manage volume access and encryption
+
+- [Configure Export policy for NFS or dual protocol](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-configure-export-policy)
+- [Configure Unix permissions and change ownership mode](https://docs.microsoft.com/en-us/azure/azure-netapp-files/configure-unix-permissions-change-ownership-mode)
+
+#### Mount or unmount a volume
+
+- [Mount or unmount a volume for Windows or Linux virtual machines](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-mount-unmount-volumes-for-virtual-machines)
+
+#### Manage volume capacity and performance
+
+- [Monitor the capacity of a volume](https://docs.microsoft.com/en-us/azure/azure-netapp-files/monitor-volume-capacity)
+- [Resize a capacity pool or volume](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-resize-capacity-pools-or-volumes)
+- [Dynamically change the service level of a volume](https://docs.microsoft.com/en-us/azure/azure-netapp-files/dynamic-change-volume-service-level)
 
 ### Architecture
 
