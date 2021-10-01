@@ -56,7 +56,7 @@
 - [SLA for Azure NetApp Files (99.99%)](https://azure.microsoft.com/en-us/support/legal/sla/netapp)
 - [Azure NetApp Files Performance and Cost Calculator](https://anftechteam.github.io/calc/)
 - [Azure NetApp Files Interactive Region Map](https://anftechteam.github.io/map/)
-- [FAQs about Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-faqs#networking-faqs)
+- [FAQs about Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-faqs)
 - [Cost model for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-cost-model)
 
 ### Training
@@ -292,7 +292,13 @@
 
 - [How Azure NetApp Files Snapshots work](https://docs.microsoft.com/en-us/azure/azure-netapp-files/snapshots-introduction)
 - [How snapshots can be vaulted for long-term retention and cost savings](https://docs.microsoft.com/en-us/azure/azure-netapp-files/snapshots-introduction#how-snapshots-can-be-vaulted-for-long-term-retention-and-cost-savings)
-- [Manage Snapshots by using Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-manage-snapshots)
+- [Create an on-demand snapshot](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-manage-snapshots)
+- [Manage snapshot policies](https://docs.microsoft.com/en-us/azure/azure-netapp-files/snapshots-manage-policy)
+- [Edit the Hide Snapshot Path](https://docs.microsoft.com/en-us/azure/azure-netapp-files/snapshots-edit-hide-path)
+- [Restore a snapshot to a new volume](https://docs.microsoft.com/en-us/azure/azure-netapp-files/snapshots-restore-new-volume)
+- [Restore a file from a snapshot using a client](https://docs.microsoft.com/en-us/azure/azure-netapp-files/snapshots-restore-file-client)
+- [Restore a volume using snapshot revert](https://docs.microsoft.com/en-us/azure/azure-netapp-files/snapshots-revert-volume)
+- [Delete snapshots](https://docs.microsoft.com/en-us/azure/azure-netapp-files/snapshots-delete)
 
 ### Cross-Region Replication (CRR)
 
@@ -308,6 +314,7 @@
 - [Understand Azure NetApp Files backup](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-introduction)
 - [Requirements and considerations for Azure NetApp Files backup](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-requirements-considerations)
 - [Configure policy-based backups for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-configure-policy-based)
+- [Configure manual backups for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-configure-manual)
 - [Manage backup policies for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-manage-policies)
 - [Search backups of Azure NetApp Files volumes](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-search)
 - [Restore a backup to a new volume](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-restore-new-volume)
