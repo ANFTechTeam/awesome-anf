@@ -174,7 +174,7 @@
 
 ### Azure VMware Solution
 
--[Azure NetApp Files with Azure VMware Solution - Guest OS Mounts](https://docs.microsoft.com/en-us/azure/azure-vmware/netapp-files-with-azure-vmware-solution)
+- [Azure NetApp Files with Azure VMware Solution - Guest OS Mounts](https://docs.microsoft.com/en-us/azure/azure-vmware/netapp-files-with-azure-vmware-solution)
 
 ### Machine Learning
 
