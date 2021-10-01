@@ -201,6 +201,8 @@
 
 ### Cross-Region Replication (CRR)
 
+- [Understand Cross-region replicaton of Azure NetApp Files volumes](https://docs.microsoft.com/en-us/azure/azure-netapp-files/cross-region-replication-introduction)
+- [Requirements and considerations for using cross-region replication](https://docs.microsoft.com/en-us/azure/azure-netapp-files/cross-region-replication-requirements-considerations)
 - [Manage Disaster Recovery using Cross-Region Replication](https://docs.microsoft.com/en-us/azure/azure-netapp-files/cross-region-replication-manage-disaster-recovery)
 - [Create volume replication for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/cross-region-replication-create-peering)
 - [Display health status of replication relationship](https://docs.microsoft.com/en-us/azure/azure-netapp-files/cross-region-replication-display-health-status)
