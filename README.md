@@ -4,6 +4,7 @@
 
 - [Awesome Azure NetApp Files (ANF) - A curated list of Azure NetApp Files Resources](#awesome-azure-netapp-files-anf---a-curated-list-of-azure-netapp-files-resources)
   - [General](#general)
+    - [Training](#training)
     - [Blogs](#blogs)
     - [How-to / Guides](#how-to--guides)
     - [Architecture](#architecture)
@@ -43,6 +44,13 @@
 - [Azure NetApp Files Interactive Region Map](https://anftechteam.github.io/map/)
 - [FAQs about Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-faqs#networking-faqs)
 - [Cost model for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-cost-model)
+
+### Training
+
+- [Introduction to Azure NetApp Files](https://docs.microsoft.com/en-us/learn/modules/introduction-to-azure-netapp-files/)
+- [Choose the best service level of Azure NetApp Files for your HPC applications](https://docs.microsoft.com/en-us/learn/modules/choose-service-level-azure-netapp-files-hpc-applications/)
+- [Improve Azure NetApp Files performance for your EDA and HPC applications by using best practices](https://docs.microsoft.com/en-us/learn/modules/improve-azure-netapp-files-performance-hpc-eda-best-practices/)
+- [Run high-performance computing (HPC) applications on Azure](https://docs.microsoft.com/en-us/learn/paths/run-high-performance-computing-applications-azure/)
 
 ### Blogs
 
@@ -92,9 +100,7 @@
 ### HPC
 
 - [High Performance Computing on Azure [blog]](https://anfcommunity.com/2020/12/04/high-performance-computing-on-azure/)
-- [Choose the best service level of Azure NetApp Files for your HPC applications](https://docs.microsoft.com/en-us/learn/modules/choose-service-level-azure-netapp-files-hpc-applications/)
-- [Improve Azure NetApp Files performance for your EDA and HPC applications by using best practices](https://docs.microsoft.com/en-us/learn/modules/improve-azure-netapp-files-performance-hpc-eda-best-practices/)
-- [Run high-performance computing (HPC) applications on Azure](https://docs.microsoft.com/en-us/learn/paths/run-high-performance-computing-applications-azure/)
+
 
 ### Azure Virtual Desktop
 
