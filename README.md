@@ -197,6 +197,7 @@
 ### Snapshots
 
 - [How Azure NetApp Files Snapshots work](https://docs.microsoft.com/en-us/azure/azure-netapp-files/snapshots-introduction)
+- [How snapshots can be vaulted for long-term retention and cost savings](https://docs.microsoft.com/en-us/azure/azure-netapp-files/snapshots-introduction#how-snapshots-can-be-vaulted-for-long-term-retention-and-cost-savings)
 - [Manage Snapshots by using Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-manage-snapshots)
 
 ### Cross-Region Replication (CRR)
@@ -218,6 +219,7 @@
 - [Restore a backup to a new volume](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-restore-new-volume)
 - [Disable backup functionality for a volume](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-disable)
 - [Delete backups of a volume](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-delete)
+- [Azure NetApp Files backup FAQs](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-faqs#azure-netapp-files-backup-faqs)
 
 ## Troubleshooting
 
