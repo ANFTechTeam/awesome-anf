@@ -22,7 +22,7 @@
     - [SQL Server](#sql-server)
     - [Azure VMware Solution](#azure-vmware-solution)
     - [Machine Learning](#machine-learning)
-    - [Eductation](#education) 
+    - [Education](#education) 
   - [Monitoring / Alerting / Reporting](#monitoring--alerting--reporting)
   - [Automation](#automation)
     - [Logic Apps](#logic-apps)
