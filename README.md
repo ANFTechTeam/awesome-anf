@@ -12,10 +12,14 @@
   - [Workloads / Use Cases](#workloads--use-cases)
     - [SAP](#sap)
     - [HPC](#hpc)
+    - [SAS](#sas)
     - [Azure Virtual Desktop](#azure-virtual-desktop)
+    - [Citrix](#citrix)
     - [Kubernetes / Containers](#kubernetes--containers)
+    - [Azure Red Hat Openshift](#azure-red-hat-openshift)
     - [Oracle](#oracle)
     - [SQL Server](#sql-server)
+    - [Azure VMware Solution](#azure-vmware-solution)
   - [Monitoring / Alerting / Reporting](#monitoring--alerting--reporting)
   - [Automation](#automation)
     - [Logic Apps](#logic-apps)
@@ -101,17 +105,49 @@
 ### HPC
 
 - [High Performance Computing on Azure [blog]](https://anfcommunity.com/2020/12/04/high-performance-computing-on-azure/)
+- [Azure NetApp Files: Getting the most out of your cloud storage](https://cloud.netapp.com/hubfs/Resources/ANF%20PERFORMANCE%20TESTING%20IN%20TEMPLATE.pdf)
+- [Run MPI workloads with Azure Batch and Azure NetApp Files](https://azure.microsoft.com/en-us/resources/run-mpi-workloads-with-azure-batch-and-azure-netapp-files/)
+- [Azure Cycle Cloud: CycleCloud HPC environments on Azure NetApp Files](https://docs.microsoft.com/en-us/azure/cyclecloud/overview?view=cyclecloud-8)
+- [High Performance computing (HPC): Oil and gas in Azure](https://techcommunity.microsoft.com/t5/azure-global/high-performance-computing-hpc-oil-and-gas-in-azure/ba-p/824926)
+- [Run reservoir simulation software on Azure](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/infrastructure/reservoir-simulation)
+- [Benefits of using Azure NetApp Files for electronic design automation](https://docs.microsoft.com/en-us/azure/azure-netapp-files/solutions-benefits-azure-netapp-files-electronic-design-automation)
+- [Azure CycleCloud: EDA HPC Lab with Azure NetApp Files](https://github.com/Azure/cyclecloud-hands-on-labs/blob/master/EDA/README.md)
+- [Azure for the semiconductor industry](https://azurecomcdn.azureedge.net/cvt-f40f39cd9de2d875ab0c198a8d7b186350cf0bca161e80d7896941389685d012/mediahandler/files/resourcefiles/azure-for-the-semiconductor-industry/Azure_for_the_Semiconductor_Industry.pdf)
 
+### SAS
+
+- [Azure NetApp Files: A Shared file system to use with SAS Grid on Microsoft Azure](https://communities.sas.com/t5/Administration-and-Deployment/Azure-NetApp-Files-A-shared-file-system-to-use-with-SAS-Grid-on/m-p/705192)
+- [Azure NetApp Files: A Shared file system to use with SAS Grid on MS Azure - RHEL8.3/nconnect UPDATE](https://communities.sas.com/t5/Administration-and-Deployment/Azure-NetApp-Files-A-shared-file-system-to-use-with-SAS-Grid-on/m-p/722261#M21648)
+- [Best Practices for Using Microsoft Azure with SAS](https://communities.sas.com/t5/Administration-and-Deployment/Best-Practices-for-Using-Microsoft-Azure-with-SAS/m-p/676833#M19680)
+- [SAS on Azure architecture guide - Azure Architecture Center | Azure NetApp Files](https://docs.microsoft.com/en-us/azure/architecture/guide/sas/sas-overview#azure-netapp-files-nfs)
 
 ### Azure Virtual Desktop
 
 - [Benefits of using Azure NetApp Files with AVD [docs]](https://docs.microsoft.com/en-us/azure/azure-netapp-files/solutions-windows-virtual-desktop)
+- [Storage options for FSLogix profile containers in Azure Virtual Desktop](https://docs.microsoft.com/en-us/azure/virtual-desktop/store-fslogix-profile#azure-platform-details)
+- [Create an FSLogix profile container for a host pool using Azure NetApp Files](https://docs.microsoft.com/en-us/azure/virtual-desktop/create-fslogix-profile-container)
+- [Azure Virtual Desktop at Enterprise Scale](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/wvd/windows-virtual-desktop)
+- [Microsoft FSLogix for the enterprise - Azure NetApp Files best practices](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/wvd/windows-virtual-desktop-fslogix#azure-netapp-files-best-practices)
+- [Setting up Azure NetApp Files for MSIX App Attach](https://techcommunity.microsoft.com/t5/azure-virtual-desktop/setting-up-azure-netapp-files-for-msix-app-attach-step-by-step/m-p/1990021)
+
+### Citrix
+
+- [Citrix Profile Management with Azure NetApp Files Best Practices Guide](https://www.netapp.com/pdf.html?item=/media/55973-tr-4901.pdf)
 
 ### Kubernetes / Containers
 
 - [Azure NetApp Files + Astra Trident = Dynamic and Persistent Storage for AKS](https://anfcommunity.com/2021/02/16/azure-netapp-files-trident-dynamic-and-persistent-storage-for-kubernetes/)
 - [Azure NetApp files + Astra Trident Integration - Part 2](https://anfcommunity.com/2021/08/01/azure-netapp-files-trident-integration-part-2/)
 - [Astra Trident Documentation](https://netapp-trident.readthedocs.io/en/latest/)
+- [Astra: protect, recover, and manage your AKS workloads on Azure NetApp Files](https://cloud.netapp.com/hubfs/Astra%20Azure%20Documentation.pdf)
+- [Integrate Azure NetApp Files with Azure Kubernetes Service](https://docs.microsoft.com/en-us/azure/aks/azure-netapp-files)
+- [Out-of-This-World Kubernetes performance on Azure with Azure NetApp Files](https://cloud.netapp.com/blog/ma-anf-blg-configure-kubernetes-openshift)
+- [Trident - Storage Orchestrator for Container](https://netapp-trident.readthedocs.io/en/stable-v20.04/kubernetes/operations/tasks/backends/anf.html)
+- [Magneto e-commerce platform in Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/magento/magento-azure)
+
+### Azure Red Hat Openshift
+
+- [Using Trident to Automate Azure NetApp Files from OpenShift](https://techcommunity.microsoft.com/t5/fasttrack-for-azure/using-trident-to-automate-azure-netapp-files-from-openshift/ba-p/2367351)
 
 ### Oracle
 
@@ -122,9 +158,15 @@
 ### SQL Server
 
 - [Deploy SQL Server over SMB with Azure NetApp Files [video]](https://www.youtube.com/watch?v=x7udfcYbibs)
-- [Deploy SQL Server Always On Availability Groups with Azure NetApp Files [video]](https://www.youtube.com/watch?v=y3VQmzzeyvc)
+- [Deploy SQL Server Always-On Availability Groups with Azure NetApp Files [video]](https://www.youtube.com/watch?v=y3VQmzzeyvc)
+- [Deploy SQL Server Always-On Failover Cluster over SMB with Azure NetApp Files [video]](https://www.youtube.com/watch?v=zuNJ5E07e8Q)
 - [Benefits of using Azure NetApp Files for SQL Server deployment](https://docs.microsoft.com/en-us/azure/azure-netapp-files/solutions-benefits-azure-netapp-files-sql-server)
 - [SQL Server on Azure deploymnet guide using Azure NetApp Files](https://www.netapp.com/pdf.html?item=/media/27154-tr-4888.pdf)
+- [SQL Server on Azure Virtual Machines with Azure NeTapp Files](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/file-storage/sql-server-azure-netapp-files)
+
+### Azure VMware Solution
+
+-[Azure NetApp Files with Azure VMware Solution - Guest OS Mounts](https://docs.microsoft.com/en-us/azure/azure-vmware/netapp-files-with-azure-vmware-solution)
 
 ## Monitoring / Alerting / Reporting
 
