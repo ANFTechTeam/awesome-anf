@@ -42,7 +42,7 @@
 ## General
 
 - [What's new in Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/whats-new)
-- [ANF Documentation Changes, updated August 2021](ANF-Doc-Updates.md)
+- [ANF Documentation Changes, updated September 2021](ANF-Doc-Updates.md)
 - [Azure NetApp Files Documentation](https://docs.microsoft.com/en-us/azure/azure-netapp-files/)
 - [Azure NetApp Files Solution Architectures](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-solution-architectures)
 - [SLA for Azure NetApp Files (99.99%)](https://azure.microsoft.com/en-us/support/legal/sla/netapp)
