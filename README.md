@@ -17,6 +17,7 @@
     - [Citrix](#citrix)
     - [Kubernetes / Containers](#kubernetes--containers)
     - [Azure Red Hat Openshift](#azure-red-hat-openshift)
+    - [Azure Batch](#azure-batch)
     - [Oracle](#oracle)
     - [SQL Server](#sql-server)
     - [Azure VMware Solution](#azure-vmware-solution)
@@ -148,6 +149,10 @@
 ### Azure Red Hat Openshift
 
 - [Using Trident to Automate Azure NetApp Files from OpenShift](https://techcommunity.microsoft.com/t5/fasttrack-for-azure/using-trident-to-automate-azure-netapp-files-from-openshift/ba-p/2367351)
+
+### Azure Batch
+
+- [Run MPI workloads with Azure Batch and Azure NetApp Files](https://azure.microsoft.com/en-us/resources/run-mpi-workloads-with-azure-batch-and-azure-netapp-files/)
 
 ### Oracle
 
