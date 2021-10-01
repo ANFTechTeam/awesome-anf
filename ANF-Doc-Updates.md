@@ -1,5 +1,60 @@
-ANF documentation activities for August 2021:
+## ANF documentation activities for Septempter 2021:
+*   \[new feature\] Azure NetApp Files backup
+    *   \[new\] [Understand Azure NetApp Files backup](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-introduction)
+    *   \[new\] [Requirements and considerations for Azure NetApp Files backup](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-requirements-considerations)
+    *   \[new\] [Configure policy-based backups](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-configure-policy-based)
+    *   \[new\] [Configure manual backups](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-configure-manual)
+    *   \[new\] [Manage backup policies](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-manage-policies)
+    *   \[new\] [Search backups](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-search)
+    *   \[new\] [Restore a backup to a new volume](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-restore-new-volume)
+    *   \[new\] [Disable backup functionality](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-disable)
+    *   \[new\] [Delete backups](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-delete)
+    *   [What's new](https://docs.microsoft.com/en-us/azure/azure-netapp-files/whats-new) _\-_ Feature announcement.
+    *   [How Azure NetApp Files snapshots work](https://docs.microsoft.com/en-us/azure/azure-netapp-files/snapshots-introduction) -
+        *   \[New subsections\] _[How snapshots can be vaulted for long-term retention and cost savings](https://docs.microsoft.com/en-us/azure/azure-netapp-files/snapshots-introduction#how-snapshots-can-be-vaulted-for-long-term-retention-and-cost-savings)_, _[Restoring volume backups from vaulted snapshots](https://docs.microsoft.com/en-us/azure/azure-netapp-files/snapshots-introduction#restoring-volume-backups-from-vaulted-snapshots)_, and _[Deleting vaulted snapshots](https://docs.microsoft.com/en-us/azure/azure-netapp-files/snapshots-introduction#deleting-vaulted-snapshots)_. 
+        *   Updates throughout the article.
+    *   [Azure NetApp Files backup FAQs](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-faqs#azure-netapp-files-backup-faqs) - Added backup FAQs.
+    *   [Resource limits](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-resource-limits) \- Added backup resource limits to table.
+    *   [Volume backup metrics](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-metrics#volume-backup-metrics) - Added backup metrics
+*   \[new\] [Azure NetApp Files for Azure Government](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-government) - Describes Azure NetApp Files feature availability in Azure Government and how to access the Azure NetApp Files service within Azure Government.
+*   \[new option\] **Administrators** for Active Directory connections
+    *   [Create and manage Active Directory connections](https://docs.microsoft.com/en-us/azure/azure-netapp-files/create-active-directory-connections) – Under Step 3 (Protocol), added **Administrators** bullet for the new UI. 
+    *   [What's new](https://docs.microsoft.com/en-us/azure/azure-netapp-files/whats-new) – Added introduction about **Administrators**
+*   [Resource limits for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-resource-limits) - Default limit for the number of cross-region replication data protection volumes (destination volumes) has been updated to 10.
+*   [Create and manage Active Directory connections](https://docs.microsoft.com/en-us/azure/azure-netapp-files/create-active-directory-connections) -- Subsection _[Azure Active Directory Domain Services](https://docs.microsoft.com/en-us/azure/azure-netapp-files/create-active-directory-connections#azure-active-directory-domain-services)_ added POSIX attribute consideration about using AADDS with a dual-protocol volume.
+*   [Configure an NFS client for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/configure-nfs-clients) - Subsection [_RHEL 8 configuration if you are using dual protocol_](https://docs.microsoft.com/en-us/azure/azure-netapp-files/configure-nfs-clients#rhel-8-configuration-if-you-are-using-dual-protocol) has updated details about ldap\_id\_mapping and other configurations under Step 3.
+*   [Configure ADDS LDAP with extended groups for NFS](https://docs.microsoft.com/en-us/azure/azure-netapp-files/configure-ldap-extended-groups) –
+    *   Updated guidelines about \`objectClass\` values for POSIX attributes.
+    *   Clarified that the feature enables access to _files and directories_ in the volume.
+*   [Create a dual-protocol volume](https://docs.microsoft.com/en-us/azure/azure-netapp-files/create-volumes-dual-protocol#manage-ldap-posix-attributes) - Updated guidelines about \`objectClass\` values for POSIX attributes.
+*   [Enable Continuous Availability on existing SMB volumes](https://docs.microsoft.com/en-us/azure/azure-netapp-files/enable-continuous-availability-existing-smb) - Step 4 updated for clarity.
+    *   [Understand cross-region replication](https://review.docs.microsoft.com/en-us/azure/azure-netapp-files/cross-region-replication-introduction) - Restructured tables to list geo(s) by pair and Azure regional pairs added the following:
+    *   North Central US and South Central US 
+    *   US Gov Virginia and US Gov Texas
+*   [Manage disaster recovery](https://docs.microsoft.com/en-us/azure/azure-netapp-files/cross-region-replication-manage-disaster-recovery) - Updated subsection _[Resync volumes after disaster recovery](https://docs.microsoft.com/en-us/azure/azure-netapp-files/cross-region-replication-manage-disaster-recovery#resync-replication)_ with additional explanation about the resync operation. 
+*   [Metrics for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-metrics#replication) – Removed an unsupported metric.
+*   Performance articles updated:
+    *   [Performance benchmark test recommendations for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-performance-metrics-volumes) – Updated overview.
+    *   [Performance benchmarks for Linux](https://docs.microsoft.com/en-us/azure/azure-netapp-files/performance-benchmarks-linux) – Updated details about the graphs. 
+*   [Solution architectures using Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-solution-architectures):
+    *   \[new subsection\] _[Azure Red Hat Openshift](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-solution-architectures#azure-red-hat-openshift)_ **-** Added [Using Trident to Automate Azure NetApp Files from OpenShift](https://techcommunity.microsoft.com/t5/fasttrack-for-azure/using-trident-to-automate-azure-netapp-files-from-openshift/ba-p/2367351)
+    *   _[SQL Server](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-solution-architectures#sql-server)_ - Added  [SQL Server on Azure Virtual Machines with Azure NetApp Files - Azure Example Scenarios](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/file-storage/sql-server-azure-netapp-files)
+    *   _[Oracle](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-solution-architectures#oracle)_ - Added  [Oracle Database with Azure NetApp Files - Azure Example Scenarios](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/file-storage/oracle-azure-netapp-files)
+    *   _[SAP HANA](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-solution-architectures#sap-hana)_ - Added  [SAP HANA Disaster Recovery with Azure NetApp Files](https://docs.netapp.com/us-en/netapp-solutions-sap/pdfs/sidebar/SAP_HANA_Disaster_Recovery_with_Azure_NetApp_Files.pdf)
+*   [FAQs about Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-faqs) - Added new subsection _[Application resilience FAQs](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-faqs#application-resilience-faqs)_.
+*   [Release Notes for AzAcSnap](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azacsnap-release-notes) - AzAcSnap v5.0.2 is available.
+*   Doc enhancements:
+    *   Table of content (TOC) restructure: Articles in **How-To Guides** section are further categorized and grouped under sub-nodes.
+    *   Split subsections of article _Manage snapshots_ into standalone articles:
+        *   [Create an on-demand snapshot](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-manage-snapshots)
+        *   [Manage snapshot policies](https://docs.microsoft.com/en-us/azure/azure-netapp-files/snapshots-manage-policy)
+        *   [Edit the Hide Snapshot Path](https://docs.microsoft.com/en-us/azure/azure-netapp-files/snapshots-edit-hide-path)
+        *   [Restore a snapshot to a new volume](https://docs.microsoft.com/en-us/azure/azure-netapp-files/snapshots-restore-new-volume)
+        *   [Restore a file from a snapshot using a client](https://docs.microsoft.com/en-us/azure/azure-netapp-files/snapshots-restore-file-client)
+        *   [Restore a volume using snapshot revert](https://docs.microsoft.com/en-us/azure/azure-netapp-files/snapshots-revert-volume)
+        *   [Delete snapshots](https://docs.microsoft.com/en-us/azure/azure-netapp-files/snapshots-delete)
 
+## ANF documentation activities for August 2021:
 * \[**new feature**\] Chown mode export policy support and chmod (Unix permissions)
     * \[new\] [Configure Unix permissions and change ownership mode](https://docs.microsoft.com/en-us/azure/azure-netapp-files/configure-unix-permissions-change-ownership-mode) – Describes setting the **Unix permissions** and the **change ownership mode** (**Chown** **Mode**) options for NFS volumes or dual-protocol volumes with the ‘Unix’ security style.
     * [Configure export policy](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-configure-export-policy) – Added new UI **Chown** **Mode**.
