@@ -230,7 +230,7 @@
 
 ### Logic Apps
 
-- [ANFCapacityManager]()
+- [ANFCapacityManager](https://github.com/ANFTechTeam/ANFCapacityManager)
 - [Azure NetApp Files Snapshot Scheduler Logic App](https://github.com/ANFTechTeam/anfScheduler)
 
 ### Terraform
