@@ -311,6 +311,7 @@
 
 ### Backup
 
+- [Azure NetApp Files Backup: Not your typical introduction](https://www.netapp.com/blog/azure-netapp-files-backup/)
 - [Understand Azure NetApp Files backup](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-introduction)
 - [Requirements and considerations for Azure NetApp Files backup](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-requirements-considerations)
 - [Configure policy-based backups for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-configure-policy-based)
