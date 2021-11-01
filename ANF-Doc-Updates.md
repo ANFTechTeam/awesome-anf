@@ -1,3 +1,51 @@
+## ANF documentation activities for October 2021:
+*   Documentation enhancement - Table of Content restructure
+    *   Articles under Concepts are now grouped into subcategories.
+    *   The single FAQ article is now split into individual articles according to the subject.
+    *   [Regional capacity quota](https://docs.microsoft.com/en-us/azure/azure-netapp-files/regional-capacity-quota) is now a standalone article.
+*   \[new feature\] Standard network features
+    *   \[new\] [Configure network features for a volume](https://docs.microsoft.com/en-us/azure/azure-netapp-files/configure-network-features) - Describes network feature registration and configuration steps.
+    *   [Guidelines for Azure NetApp Files network planning](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-network-topologies) - New and updated subsections:  
+    \- \[new\] [Configurable network features](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-network-topologies#configurable-network-features)   
+    \- [Constraints](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-network-topologies#constraints)  
+    \- [Supported network topologies](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-network-topologies#supported-network-topologies)  
+    \- [UDRs and NSGs](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-network-topologies#udrs-and-nsgs)
+    *   [What's new](https://docs.microsoft.com/en-us/azure/azure-netapp-files/whats-new) - Feature announcement.
+    *   [Create an NFS volume](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes), [Create an SMB volume](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb), [Create a dual-protocol volume](https://docs.microsoft.com/en-us/azure/azure-netapp-files/create-volumes-dual-protocol) – Added a mention about the **Network Features** UI and point to the new article for steps.
+    *   [Troubleshoot volume errors](https://docs.microsoft.com/en-us/azure/azure-netapp-files/troubleshoot-volumes#errors-for-volume-allocation) \- Error messages related to volume allocation
+    *   [Networking FAQs for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/faq-networking) - Removed entry "Does Azure NetApp Files support Network Security Groups?", which indicated NSG isn't supported.
+*   The Azure NetApp Files service no longer requires waitlist registration:
+    *   [Register for NetApp _**Resource Provider**_](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-register) - Removed Waitlist section; retitled article.
+    *   [Quickstart: Set up Azure NetApp Files and NFS volume](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-quickstart-set-up-account-create-volumes?tabs=azure-portal) - Removed Waitlist requirement
+    *   [Create a NetApp account](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-create-netapp-account) - Removed Waitlist requirement
+    *   [What is Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-introduction) - Removed Waitlist requirement
+    *   [Troubleshoot Resource Provider errors](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-troubleshoot-resource-provider-errors) - Removed Waitlist requirement
+*   [Understand cross-region replication](https://docs.microsoft.com/en-us/azure/azure-netapp-files/cross-region-replication-introduction):
+    *   Is now generally available (GA):
+        *   Removed waitlist/registration requirement from all relevant articles, incl.:
+            *   [Understand cross-region replication](https://docs.microsoft.com/en-us/azure/azure-netapp-files/cross-region-replication-introduction)
+            *   [Requirements and considerations for cross-region replication](https://docs.microsoft.com/en-us/azure/azure-netapp-files/cross-region-replication-requirements-considerations)
+            *   [Create volume replication](https://docs.microsoft.com/en-us/azure/azure-netapp-files/cross-region-replication-create-peering)
+        *   [What’s New](https://docs.microsoft.com/en-us/azure/azure-netapp-files/whats-new) – Announcing GA of cross-region replication.
+        *   [Azure NetApp Files for Azure Government](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-government) - Update Cross-region replication status to GA for public cloud.
+    *   Added more supported pairs:
+        *   Added to [Azure regional pairs](https://docs.microsoft.com/en-us/azure/azure-netapp-files/cross-region-replication-introduction#azure-regional-pairs):
+            *   Asia-Pacific : East Asia <> Southeast Asia
+            *   Switzerland: Switzerland North <> Switzerland West
+            *   US Government: US Gov Arizona <> US Gov Texas
+        *   Added to [Azure regional non-standard pairs](https://docs.microsoft.com/en-us/azure/azure-netapp-files/cross-region-replication-introduction#azure-regional-non-standard-pairs):
+            *   US Government: US Gov Arizona <> US Gov Virginia
+*   [NFS FAQ](https://docs.microsoft.com/en-us/azure/azure-netapp-files/faq-nfs) - Updated _[_Can I use the same file path (volume creation token) for multiple volumes_](https://docs.microsoft.com/en-us/azure/azure-netapp-files/faq-nfs#can-i-use-the-same-file-path-volume-creation-token-for-multiple-volumes)__._
+*   [Enable Continuous Availability on existing SMB volumes](https://docs.microsoft.com/en-us/azure/azure-netapp-files/enable-continuous-availability-existing-smb) - Added reminder: Continuous Availability should be enabled only for SQL Server and FSLogix user profile containers. 
+*   [Configure export policy for NFS or dual protocol](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-configure-export-policy) - Clarified that the Root Access option is not available for NFSv4.1 Kerberos volumes.
+*   [Requirements and considerations for Azure NetApp Files backup](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-requirements-considerations) – Added consideration: ANF backup is not supported on a cross-region replication _destination_ volume.
+*   [Solution architectures using Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-solution-architectures) -
+    *   Subsection [File sharing and Global File Caching](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-solution-architectures#file-sharing-and-global-file-caching)
+        *   \[new\] [Disaster Recovery for Enterprise File Shares with Azure NetApp Files and DFS Namespaces](https://techcommunity.microsoft.com/t5/azure-architecture-blog/disaster-recovery-for-enterprise-file-shares/ba-p/2808757)
+    *   Subsection [Machine Learning](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-solution-architectures#machine-learning)
+        *   \[new\] [Distributed training in Azure: Click-Through Rate Prediction – Solution design](https://docs.netapp.com/us-en/netapp-solutions/ai/aks-anf_introduction.html)
+    *   Subsection [Azure Kubernetes Services and Kubernetes](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-solution-architectures#azure-kubernetes-services-and-kubernetes)
+        *   \[updated\] [Integrate Azure NetApp Files with Azure Kubernetes Service](https://docs.microsoft.com/en-us/azure/aks/azure-netapp-files) - Updated with details about how to create ANF volumes to be used by pods in an Azure Kubernetes Service (AKS) cluster by using [Astra Trident](https://docs.netapp.com/us-en/trident/index.html). (Contribution from NetApp AKS team)
 ## ANF documentation activities for Septempter 2021:
 *   \[new feature\] Azure NetApp Files backup
     *   \[new\] [Understand Azure NetApp Files backup](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-introduction)
