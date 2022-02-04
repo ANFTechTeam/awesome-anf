@@ -92,6 +92,7 @@
 - [Configure ADDS LDAP with extended groups for NFS](https://docs.microsoft.com/en-us/azure/azure-netapp-files/configure-ldap-extended-groups)
 - [Configure an NFS client for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/configure-nfs-clients)
 - [Convert an NFS volume between NFSv3 and NFSv4.1](https://docs.microsoft.com/en-us/azure/azure-netapp-files/convert-nfsv3-nfsv41)
+- [Configuring LDAP search scope](https://docs.microsoft.com/en-us/azure/azure-netapp-files/configure-ldap-extended-groups#ldap-search-scope)
 
 #### Manage SMB volumes
 
