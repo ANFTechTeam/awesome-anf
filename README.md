@@ -29,6 +29,9 @@
     - [Azure VMware Solution](#azure-vmware-solution)
     - [Machine Learning](#machine-learning)
     - [Education](#education) 
+    - [Linux OSS Apps](#linux-oss-apps)
+    - [Mainframe refactor](#mainframe-refactor)
+
   - [Monitoring / Alerting / Reporting](#monitoring--alerting--reporting)
   - [Automation](#automation)
     - [Logic Apps](#logic-apps)
@@ -222,6 +225,16 @@
 ### Education
 
 - [Moodle on Azure NetApp Files NFS storage](https://techcommunity.microsoft.com/t5/azure-architecture-blog/azure-netapp-files-for-nfs-storage-with-moodle/ba-p/2300630)
+
+### Linux OSS Apps
+
+-[AIX UNIX on-premises to Azure Linux migration](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/unix-migration/migrate-aix-azure-linux)
+-[Leverage Azure NetApp Files for R Studio workloads](https://techcommunity.microsoft.com/t5/azure-storage-blog/leverage-azure-netapp-files-for-r-studio-workloads/ba-p/2935878)
+
+### Mainframe refactor
+
+-[General mainframe refactor to Azure](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/mainframe/general-mainframe-refactor)
+-[Refactor mainframe applications with Advanced](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/mainframe/refactor-mainframe-applications-advanced)
 
 ## Monitoring / Alerting / Reporting
 
