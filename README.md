@@ -87,6 +87,7 @@
 - [Configure NFSv4.1 Kerberos encrpyption](https://docs.microsoft.com/en-us/azure/azure-netapp-files/configure-kerberos-encryption)
 - [Configure ADDS LDAP with extended groups for NFS](https://docs.microsoft.com/en-us/azure/azure-netapp-files/configure-ldap-extended-groups)
 - [Configure an NFS client for Azure NetApp Files](https://docs.microsoft.com/en-us/azure/azure-netapp-files/configure-nfs-clients)
+- [Convert an NFS volume between NFSv3 and NFSv4.1](https://docs.microsoft.com/en-us/azure/azure-netapp-files/convert-nfsv3-nfsv41)
 
 #### Manage SMB volumes
 
@@ -102,6 +103,7 @@
 
 - [Configure Export policy for NFS or dual protocol](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-configure-export-policy)
 - [Configure Unix permissions and change ownership mode](https://docs.microsoft.com/en-us/azure/azure-netapp-files/configure-unix-permissions-change-ownership-mode)
+- [Configure network features for an Azure NetApp Files volume](https://docs.microsoft.com/en-us/azure/azure-netapp-files/configure-network-features)
 
 #### Mount or unmount a volume
 
