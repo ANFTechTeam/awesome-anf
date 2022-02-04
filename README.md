@@ -228,13 +228,13 @@
 
 ### Linux OSS Apps
 
--[AIX UNIX on-premises to Azure Linux migration](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/unix-migration/migrate-aix-azure-linux)
--[Leverage Azure NetApp Files for R Studio workloads](https://techcommunity.microsoft.com/t5/azure-storage-blog/leverage-azure-netapp-files-for-r-studio-workloads/ba-p/2935878)
+- [AIX UNIX on-premises to Azure Linux migration](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/unix-migration/migrate-aix-azure-linux)
+- [Leverage Azure NetApp Files for R Studio workloads](https://techcommunity.microsoft.com/t5/azure-storage-blog/leverage-azure-netapp-files-for-r-studio-workloads/ba-p/2935878)
 
 ### Mainframe refactor
 
--[General mainframe refactor to Azure](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/mainframe/general-mainframe-refactor)
--[Refactor mainframe applications with Advanced](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/mainframe/refactor-mainframe-applications-advanced)
+- [General mainframe refactor to Azure](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/mainframe/general-mainframe-refactor)
+- [Refactor mainframe applications with Advanced](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/mainframe/refactor-mainframe-applications-advanced)
 
 ## Monitoring / Alerting / Reporting
 
