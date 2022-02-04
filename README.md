@@ -44,6 +44,7 @@
     - [Snapshots](#snapshots)
     - [Cross-Region Replication (CRR)](#cross-region-replication-crr)
     - [Backup](#backup)
+    - [AzAcSnap](#azacsnap)
   - [Troubleshooting](#troubleshooting)
   - [Other](#other)
 
@@ -324,6 +325,11 @@
 - [Disable backup functionality for a volume](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-disable)
 - [Delete backups of a volume](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-delete)
 - [Azure NetApp Files backup FAQs](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-faqs#azure-netapp-files-backup-faqs)
+
+### AzAcSnap
+
+- [What is Azure Application Consistent Snapshot tool](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azacsnap-introduction)
+- [Release Notes for Azure Application Consistent Snapshot tool](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azacsnap-release-notes) 
 
 ## Troubleshooting
 
