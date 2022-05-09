@@ -141,11 +141,12 @@
 - [Deploy SAP HANA Scale-out on Azure VMs with ANF, SLES [docs]](https://docs.microsoft.com/en-us/azure/virtual-machines/workloads/sap/sap-hana-scale-out-standby-netapp-files-suse)
 - [Deploy SAP HANA Scale-out on Azure VMs with ANF, RHEL [docs]](https://docs.microsoft.com/en-us/azure/virtual-machines/workloads/sap/sap-hana-scale-out-standby-netapp-files-rhel)
 - [High availability for SAP NetWeaver on Azure VMs with ANF, SLES [docs]](https://docs.microsoft.com/en-us/azure/virtual-machines/workloads/sap/high-availability-guide-suse-netapp-files)
-- [SAP on Azure - Video Podcast Episode #14 - The One with AN](https://www.youtube.com/watch?v=zPALOig4CRM)
+- [SAP on Azure - Video Podcast Episode #14 - The One with ANF](https://www.youtube.com/watch?v=zPALOig4CRM)
 - [SAP on Azure - Video Podcast Episide #15 - The One with ANF, Backup](https://www.youtube.com/watch?v=MvEzYu41Mko)
 - [SAP on Azure - Video Podcast Episode #16 - The One with ANF, Recovery & Cloning](https://www.youtube.com/watch?v=oL0ICzfJAfk)
 - [What is Azure Application Consistent Snapshot tool (AzAcSnap)](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azacsnap-introduction)
 - [SAP HANA disaster recovery with Azure NetApp Files [Technical Report]](https://docs.netapp.com/us-en/netapp-solutions-sap/backup/saphana-dr-anf_data_protection_overview_overview.html)
+- [Manual Recovery Guide for SAP Oracle 19c on Azure VMs from Azure NetApp Files snapshot with AzAcSnap](https://techcommunity.microsoft.com/t5/running-sap-applications-on-the/manual-recovery-guide-for-sap-oracle-19c-on-azure-vms-from-azure/ba-p/3242408)
 
 ### HPC
 
@@ -343,7 +344,8 @@
 ### AzAcSnap
 
 - [What is Azure Application Consistent Snapshot tool](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azacsnap-introduction)
-- [Release Notes for Azure Application Consistent Snapshot tool](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azacsnap-release-notes) 
+- [Release Notes for Azure Application Consistent Snapshot tool](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azacsnap-release-notes)
+- [Manual Recovery Guide for SAP Oracle 19c on Azure VMs from Azure NetApp Files snapshot with AzAcSnap](https://techcommunity.microsoft.com/t5/running-sap-applications-on-the/manual-recovery-guide-for-sap-oracle-19c-on-azure-vms-from-azure/ba-p/3242408)
 
 ## Troubleshooting
 
