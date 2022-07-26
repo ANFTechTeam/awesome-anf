@@ -217,6 +217,8 @@
 
 ### Azure VMware Solution
 
+- [Azure NetApp Files datastore TCO Calculator](https://anftechteam.github.io/anfavscalc/)
+- [Attach Azure NetApp Files datastores to Azure VMware Solution hosts (Preview)](https://docs.microsoft.com/en-us/azure/azure-vmware/attach-azure-netapp-files-to-azure-vmware-solution-hosts?tabs=azure-portal)
 - [Azure NetApp Files with Azure VMware Solution - Guest OS Mounts](https://docs.microsoft.com/en-us/azure/azure-vmware/netapp-files-with-azure-vmware-solution)
 
 ### Machine Learning
