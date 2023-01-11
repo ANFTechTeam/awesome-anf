@@ -147,6 +147,7 @@
 - [What is Azure Application Consistent Snapshot tool (AzAcSnap)](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azacsnap-introduction)
 - [SAP HANA disaster recovery with Azure NetApp Files [Technical Report]](https://docs.netapp.com/us-en/netapp-solutions-sap/backup/saphana-dr-anf_data_protection_overview_overview.html)
 - [Manual Recovery Guide for SAP Oracle 19c on Azure VMs from Azure NetApp Files snapshot with AzAcSnap](https://techcommunity.microsoft.com/t5/running-sap-applications-on-the/manual-recovery-guide-for-sap-oracle-19c-on-azure-vms-from-azure/ba-p/3242408)
+- [SAP Oracle 19c System Refresh Guide on Azure VMs using Azure NetApp Files Snapshots with AzAcSnap](https://techcommunity.microsoft.com/t5/running-sap-applications-on-the/sap-oracle-19c-system-refresh-guide-on-azure-vms-using-azure/ba-p/3708172)
 
 ### HPC
 
@@ -220,6 +221,7 @@
 - [Azure NetApp Files datastore TCO Calculator](https://anftechteam.github.io/anfavscalc/)
 - [Attach Azure NetApp Files datastores to Azure VMware Solution hosts (Preview)](https://docs.microsoft.com/en-us/azure/azure-vmware/attach-azure-netapp-files-to-azure-vmware-solution-hosts?tabs=azure-portal)
 - [Azure NetApp Files with Azure VMware Solution - Guest OS Mounts](https://docs.microsoft.com/en-us/azure/azure-vmware/netapp-files-with-azure-vmware-solution)
+- [How-to: Deploy Azure VMware Solution with Azure NetApp Files datastore](https://youtu.be/0Fr8OnG55Sc)
 
 ### Machine Learning
 
