@@ -213,7 +213,7 @@
 - [Deploy SQL Server Always-On Availability Groups with Azure NetApp Files [video]](https://www.youtube.com/watch?v=y3VQmzzeyvc)
 - [Deploy SQL Server Always-On Failover Cluster over SMB with Azure NetApp Files [video]](https://www.youtube.com/watch?v=zuNJ5E07e8Q)
 - [Benefits of using Azure NetApp Files for SQL Server deployment](https://docs.microsoft.com/en-us/azure/azure-netapp-files/solutions-benefits-azure-netapp-files-sql-server)
-- [SQL Server on Azure deploymnet guide using Azure NetApp Files](https://www.netapp.com/pdf.html?item=/media/27154-tr-4888.pdf)
+- [TR-4897: SQL Server on Azure NetApp Files - Real Deployment View](https://docs.netapp.com/us-en/netapp-solutions/databases/sql-srv-anf_overview.html)
 - [SQL Server on Azure Virtual Machines with Azure NeTapp Files](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/file-storage/sql-server-azure-netapp-files)
 
 ### Azure VMware Solution
