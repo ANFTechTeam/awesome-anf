@@ -357,7 +357,7 @@
 - [Azure NetApp Files Pricing and Performance calculator](https://azure.github.io/azure-netapp-files/calc/)
 - [Azure NetApp Files datastore for Azure VMware Solution TCO Estimator](https://azure.github.io/azure-netapp-files/avs-calc/)
 - [Azure NetApp Files - standard storage with cool access cost Cost Savings Estimator](https://azure.github.io/azure-netapp-files/coolaccess-calc/)
-- {SAP on Azure NetApp Files Sizing Estimator}(https://azure.github.io/azure-netapp-files/sap-calc/)
+- [SAP on Azure NetApp Files Sizing Estimator](https://azure.github.io/azure-netapp-files/sap-calc/)
 
 ## Troubleshooting
 
