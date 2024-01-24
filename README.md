@@ -254,7 +254,6 @@
 ### Logic Apps
 
 - [ANFCapacityManager](https://github.com/ANFTechTeam/ANFCapacityManager)
-- [Azure NetApp Files Health Check](https://github.com/seanluce/ANFHealthCheck)
 
 ### Terraform
 
