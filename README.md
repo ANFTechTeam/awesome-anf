@@ -49,6 +49,7 @@
     - [Backup](#backup)
     - [AzAcSnap](#azacsnap)
   - [Troubleshooting](#troubleshooting)
+  - [Calculators](#calculators)
   - [Other](#other)
 
 ## General
@@ -253,7 +254,7 @@
 ### Logic Apps
 
 - [ANFCapacityManager](https://github.com/ANFTechTeam/ANFCapacityManager)
-- [Azure NetApp Files Snapshot Scheduler Logic App](https://github.com/ANFTechTeam/anfScheduler)
+- [Azure NetApp Files Health Check](https://github.com/seanluce/ANFHealthCheck)
 
 ### Terraform
 
@@ -350,6 +351,13 @@
 - [What is Azure Application Consistent Snapshot tool](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azacsnap-introduction)
 - [Release Notes for Azure Application Consistent Snapshot tool](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azacsnap-release-notes)
 - [Manual Recovery Guide for SAP Oracle 19c on Azure VMs from Azure NetApp Files snapshot with AzAcSnap](https://techcommunity.microsoft.com/t5/running-sap-applications-on-the/manual-recovery-guide-for-sap-oracle-19c-on-azure-vms-from-azure/ba-p/3242408)
+
+## Calculators
+
+- [Azure NetApp Files Pricing and Performance calculator](https://azure.github.io/azure-netapp-files/calc/)
+- [Azure NetApp Files datastore for Azure VMware Solution TCO Estimator](https://azure.github.io/azure-netapp-files/avs-calc/)
+- [Azure NetApp Files - standard storage with cool access cost Cost Savings Estimator](https://azure.github.io/azure-netapp-files/coolaccess-calc/)
+- {SAP on Azure NetApp Files Sizing Estimator}(https://azure.github.io/azure-netapp-files/sap-calc/)
 
 ## Troubleshooting
 
