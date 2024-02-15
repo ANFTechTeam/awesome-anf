@@ -154,7 +154,7 @@
 
 - [High Performance Computing on Azure [blog]](https://anfcommunity.com/2020/12/04/high-performance-computing-on-azure/)
 - [Azure NetApp Files: Getting the most out of your cloud storage](https://cloud.netapp.com/hubfs/Resources/ANF%20PERFORMANCE%20TESTING%20IN%20TEMPLATE.pdf)
-- [Run MPI workloads with Azure Batch and Azure NetApp Files](https://azure.microsoft.com/en-us/resources/run-mpi-workloads-with-azure-batch-and-azure-netapp-files/)
+- [Run MPI workloads with Azure Batch and Azure NetApp Files](https://techcommunity.microsoft.com/t5/azure-high-performance-computing/new-whitepaper-run-mpi-workloads-with-azure-batch-and-azure/ba-p/1223837)
 - [Azure Cycle Cloud: CycleCloud HPC environments on Azure NetApp Files](https://docs.microsoft.com/en-us/azure/cyclecloud/overview?view=cyclecloud-8)
 - [High Performance computing (HPC): Oil and gas in Azure](https://techcommunity.microsoft.com/t5/azure-global/high-performance-computing-hpc-oil-and-gas-in-azure/ba-p/824926)
 - [Run reservoir simulation software on Azure](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/infrastructure/reservoir-simulation)
