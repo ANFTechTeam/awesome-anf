@@ -344,6 +344,7 @@
 - [Disable backup functionality for a volume](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-disable)
 - [Delete backups of a volume](https://docs.microsoft.com/en-us/azure/azure-netapp-files/backup-delete)
 - [Azure NetApp Files backup FAQs](https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-faqs#azure-netapp-files-backup-faqs)
+- [Securing ANF backup with RBAC and Azure Policy](https://anfcommunity.com/2022/01/10/securing-anf-backup-with-rbac-and-azure-policy/)
 
 ### AzAcSnap
 
