@@ -278,6 +278,7 @@
 - [Automate ANF Manual QoS - Throughput Responsive QoS](https://github.com/tvanroo/public-anf-toolbox/tree/main/ANF%20QoS%20Performance)
 - [Automate ANF Manual QoS - Self Leveling QoS](https://github.com/tvanroo/public-anf-toolbox/tree/main/ANF%20QoS%20Self%20Leveling)
 - [Automate ANF Build/Teardown](https://github.com/tvanroo/public-anf-toolbox/tree/main/Automated%20Build%20and%20Teardown)
+- [Robocopy Booster Script](https://github.com/tvanroo/public-anf-toolbox/tree/main/Robocopy%20Booster)
 
 ### Azure CLI (az cli)
 
