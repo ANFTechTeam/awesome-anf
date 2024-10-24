@@ -273,6 +273,11 @@
 - [Azure NetApp Files: PowerShell One-Liners](https://anfcommunity.com/2021/08/03/azure-netapp-files-powershell-one-liners/)
 - [ANFHealthCheck: A PowerShell Script to generate beautiful HTML reports](https://github.com/seanluce/ANFHealthCheck)
 - [Automate Azure NetApp Files with Powershell](https://anfcommunity.com/2020/09/11/automate-azure-netapp-files-with-powershell/)
+- [Automate ANF Manual QoS - Mimic Auto QoS](https://github.com/tvanroo/public-anf-toolbox/tree/main/ANF%20QoS%20Mimic%20Auto)
+- [Automate ANF Manual QoS - Volume Equity QoS](https://github.com/tvanroo/public-anf-toolbox/tree/main/ANF%20QoS%20Volume%20Equity)
+- [Automate ANF Manual QoS - Throughput Responsive QoS](https://github.com/tvanroo/public-anf-toolbox/tree/main/ANF%20QoS%20Performance)
+- [Automate ANF Manual QoS - Self Leveling QoS](https://github.com/tvanroo/public-anf-toolbox/tree/main/ANF%20QoS%20Self%20Leveling)
+- [Automate ANF Build/Teardown](https://github.com/tvanroo/public-anf-toolbox/tree/main/Automated%20Build%20and%20Teardown)
 
 ### Azure CLI (az cli)
 
