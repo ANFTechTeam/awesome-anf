@@ -280,6 +280,7 @@
 - [Automate ANF Build/Teardown](https://github.com/tvanroo/public-anf-toolbox/tree/main/Automated%20Build%20and%20Teardown)
 - [Robocopy Booster Script](https://github.com/tvanroo/public-anf-toolbox/tree/main/Robocopy%20Booster)
 - [ANF Weekend Scaling Plan](https://github.com/tvanroo/public-anf-toolbox/tree/main/ANF%20Weekend%20Scaling%20Plan)
+- [ANF Daily Pool Scaling Plan](https://github.com/tvanroo/public-anf-toolbox/tree/main/ANF%20Daily%20Pool%20Size%20Scaling%20Plan)
 
 ### Azure CLI (az cli)
 
